@@ -14,6 +14,7 @@ import com.crm.qa.testUtil.WebEventListener;
 public class TestBase {
 	
 public static WebDriver driver;
+public static WebDriver gh;
 public static Properties prop;
 public static EventFiringWebDriver e_driver;
 public static WebEventListener eventListener;

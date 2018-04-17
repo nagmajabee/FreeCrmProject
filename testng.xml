@@ -7,16 +7,16 @@
 	<listeners>
 		<listener class-name="com.qa.analyzer.MyAnnotationTransformer" />
 	</listeners>
-<!--   <test thread-count="10" name="Test1"> -->
-<!--   <parameter name="browser" value="chrome"/> -->
-<!--     <classes> -->
-<!--       <class name="com.crm.qa.testcases.SignUpPageTest"/> -->
-<!--       <class name="com.crm.qa.testcases.NewContactPageTest"/> -->
-<!--       <class name="com.crm.qa.testcases.LoginPageTest"/> -->
-<!--       <class name="com.crm.qa.testcases.ContactsPageTest"/> -->
-<!--       <class name="com.crm.qa.testcases.HomePageTest"/> -->
-<!--     </classes> -->
-<!--   </test>  -->
+  <test thread-count="10" name="Test1">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.crm.qa.testcases.SignUpPageTest"/>
+      <class name="com.crm.qa.testcases.NewContactPageTest"/>
+      <class name="com.crm.qa.testcases.LoginPageTest"/>
+      <class name="com.crm.qa.testcases.ContactsPageTest"/>
+      <class name="com.crm.qa.testcases.HomePageTest"/>
+    </classes>
+  </test> 
   <test thread-count="10" name="Test2">
  <parameter name="browser" value="firefox"/>
     <classes> 
